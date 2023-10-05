@@ -1,6 +1,5 @@
 html{
     cursor: url(./imagens/mata_mosquito.png) 30 30, auto;
-    background-size: 100% 100%;
 }
 
 
@@ -12,10 +11,14 @@ body{
     background-size: 100%;
 }
 
-/* redimensionamento do background para telas menores */
+/* redimensionamento do background e imagens para telas menores */
 @media (max-width: 800px) {
     body {
         background-size: auto;
+    }
+
+    img {
+        width: 100vw;
     }
 }
 
